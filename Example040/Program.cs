@@ -8,7 +8,6 @@ void FillArray(float[] array)
         System.Console.Write(array[i] + " ");
     }
 }
-
 float MaxElement(float[] array)
 {
     float max = array[0];

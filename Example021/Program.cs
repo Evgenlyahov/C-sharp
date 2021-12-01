@@ -3,22 +3,22 @@
 // Проверить число на палиндром
 // Вариант 1
 
-// string isPalindrom = "12321";
+string isPalindrom = "12321";
 
-// int d = isPalindrom.Length;
+int d = isPalindrom.Length;
 
-// int b = Convert.ToInt32(isPalindrom);
-// System.Console.WriteLine(b);
-// System.Console.WriteLine(d);
+int b = Convert.ToInt32(isPalindrom);
+System.Console.WriteLine(b);
+System.Console.WriteLine(d);
 
-// if(isPalindrom[0] == isPalindrom[4] && isPalindrom[1] == isPalindrom[3])
-// {
-//     System.Console.WriteLine(isPalindrom + " - палиндром");
-// }
-// else
-// {
-//     System.Console.WriteLine(isPalindrom + " - не палиндром");
-// }
+if(isPalindrom[0] == isPalindrom[4] && isPalindrom[1] == isPalindrom[3])
+{
+    System.Console.WriteLine(isPalindrom + " - палиндром");
+}
+else
+{
+    System.Console.WriteLine(isPalindrom + " - не палиндром");
+}
 
 
 // Вариант 2
@@ -48,15 +48,15 @@
 
 
 // Вариант 3
-string isPalindrom = "12321";
+// string isPalindrom = "12341";
 
-for (int i = 0; i < isPalindrom.Length / 2; i++)
-{
-    if (isPalindrom[i] == isPalindrom[isPalindrom.Length - 1 - i] && isPalindrom[i + 1] == isPalindrom[isPalindrom.Length - 1 - 1])
-    {
-        System.Console.WriteLine($"Число {isPalindrom} - палиндром");
-        break;
-    }
-    else System.Console.WriteLine($"Число {isPalindrom} - не палиндром");
-    break;
-}
+// for (int i = 0; i < isPalindrom.Length / 2; i++)
+// {
+//     if (isPalindrom[i] == isPalindrom[isPalindrom.Length - 1 - i] && isPalindrom[i + 1] == isPalindrom[isPalindrom.Length - 1 - 1])
+//     {
+//         System.Console.WriteLine($"Число {isPalindrom} - палиндром");
+//         break;
+//     }
+//     else System.Console.WriteLine($"Число {isPalindrom} - не палиндром");
+//     break;
+// }
